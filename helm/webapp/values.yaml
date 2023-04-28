@@ -5,10 +5,10 @@
 replicaCount: 1
 
 image:
-  repository: jenkins/jenkins
+  repository: mabusaa/argocd-course-webapp
   pullPolicy: IfNotPresent
   # Overrides the image tag whose default is the chart appVersion.
-  tag: lts-jdk11
+  tag: 0749f902c21ddbea8352c4aa5505b19b0cd86688
 
 imagePullSecrets: []
 nameOverride: ""
