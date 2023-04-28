@@ -5,10 +5,10 @@
 replicaCount: 1
 
 image:
-  repository: rajabhattacherjee/nov_devops_01
+  repository: jenkins/jenkins
   pullPolicy: IfNotPresent
   # Overrides the image tag whose default is the chart appVersion.
-  tag: myimageo3_jenkins
+  tag: lts-jdk11
 
 imagePullSecrets: []
 nameOverride: ""
